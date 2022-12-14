@@ -1,3 +1,5 @@
+package acacia.springframework.chucknorrisjokes.model;
+
 public class Joke {
 
     String joke;

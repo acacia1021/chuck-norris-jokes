@@ -1,4 +1,10 @@
+package acacia.springframework.chucknorrisjokes.controller;
+
 import org.springframework.stereotype.Controller;
+
+import acacia.springframework.chucknorrisjokes.model.Joke;
+import acacia.springframework.chucknorrisjokes.service.JokeService;
+
 
 @Controller
 public class JokesController extends Joke{
@@ -12,7 +18,6 @@ public JokesController(JokeService jokeService){
 
 public String returnJoke(){
     return jokeService.getJoke();
-    // guru.springframework.norris.chuck.ChuckNorrisQuotes.getRandomQuote();
 }
     
 }

@@ -32,9 +32,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<!-- <artifactId><guru class="springframework:chuck-norris-for-actuator:2 4 0"></guru></artifactId> -->
-			<artifactId>guru.springframework:chuck-norris-for-actuator:2.4.0</artifactId>
-
+			<groupId>guru.springframework</groupId>
+			<artifactId>chuck-norris-for-actuator</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 	</dependencies>
 
